@@ -1,0 +1,24 @@
+{
+    "name": "svg-logo-maker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/carlystahelidavis/SVG-Logo-Maker"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/carlystahelidavis/ORM-E-Comm-Backend/issues"
+    },
+    "homepage": "https://github.com/carlystahelidavis/ORM-E-Comm-Backend",
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "inquirer": "^8.2.4"
+    }
+}
