@@ -48,6 +48,8 @@ inquirer.prompt([
         name: 'shapeColor',
     },
 ])
+
+
     .then((data) => {
         const textInput = data.logoText;
         const textColor = data.textColor;
