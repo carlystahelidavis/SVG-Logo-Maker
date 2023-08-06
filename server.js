@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // Text Render Area
 function getText(textInput, colorInput) {
-    logoText = `<text x="150" y="150" text-anchor="middle" font-size="75"  fill="${colorInput}">${textInput}</text>`
+    logoText = `<text x="150" y="150" text-anchor="middle" font-size="75" fill="${colorInput}">${textInput}</text>`
     return logoText;
 }
 // Shape Render Area
@@ -14,7 +14,7 @@ function getShape(shapeInput, shapeColorInput) {
         return `<rect x="50" height="300" width="300" fill="${shapeColorInput}"></rect>`
     } else if (shapeInput === 'circle') {
         //Circle
-        return `<circle cx="50%" cy="50%" r="150" height="100%" width="100%" fill="${shapeColorInput}"></circle`
+        return `<circle cx="50%" cy="50%" r="150" height="100%" width="100%" fill="${shapeColorInput}"></circle>`
     } else {
         //Triangle
         return `<polygon height="100%" width="100%" points="0,200 300,200 150,0" fill="${shapeColorInput}"></polygon>`
