@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const { Circle, Triangle, Square } = require("shapes.js");
+const { Circle, Triangle, Square } = require("./shapes");
 const fs = require("fs");
 
 // Text Render Area
