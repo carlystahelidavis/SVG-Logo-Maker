@@ -9,19 +9,20 @@ function getText(textInput, colorInput) {
 }
 // Shape Render Area
 function getShape(shapeInput, shapeColorInput) {
-  let shape = "";
+  let newShape;
   if (shapeInput === "square") {
     //Square
-    shape = new Square();
+    newShape = new Square(shapeColorInput);
   } else if (shapeInput === "circle") {
     //Circle
-    shape = new Circle();
+    newShape = new Circle(shapeColorInput);
   } else {
     //Triangle
-    shape = new Triangle();
+    newShape = new Triangle(shapeColorInput);
   }
   //Chooses the shape and then sets the color
-  shape.setColor(shapeColorInput);
+  console.log(newShape);
+  return newShape.createShape(shapeColorInput);
 }
 
 function getSVG(shape, text) {
